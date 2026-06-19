@@ -19,6 +19,16 @@
     <java.version>17</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <url>http://NEXUS-IP:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://NEXUS-IP:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
     <!-- Important for reproducible builds. Update using e.g. ./mvnw versions:set -DnewVersion=... -->
     <project.build.outputTimestamp>2024-11-28T14:37:52Z</project.build.outputTimestamp>
 
