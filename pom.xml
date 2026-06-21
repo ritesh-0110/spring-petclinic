@@ -419,12 +419,14 @@
   </profiles>
    <distributionManagement>
     <repository>
-        <id>nexus-releases</id>
-        <url>http://NEXUS-IP:8081/repository/maven-releases/</url>
+        <id>nexus</id>
+      <name>demo-release</name>
+        <url>http://13.53.194.16:8081/repository/demo-release//</url>
     </repository>
     <snapshotRepository>
-        <id>nexus-snapshots</id>
-        <url>http://NEXUS-IP:8081/repository/maven-snapshots/</url>
+        <id>nexus</id>
+      <name>demo-app</name>
+        <url>http://13.53.194.16:8081/repository/demo-app//</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
