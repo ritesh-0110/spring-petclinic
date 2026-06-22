@@ -15,6 +15,13 @@
 
   <properties>
     <!-- Generic properties -->
+    <repositories>
+<repository>
+        <id>nexus</id>
+      <name>demo-release</name>
+        <url>http://13.63.45.18:8081/repository/demo-release////</url>
+    </repository>
+</repositories>
     <java.version>17</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -421,12 +428,12 @@
     <repository>
         <id>nexus</id>
       <name>demo-release</name>
-        <url>http://13.63.45.18:8081/repository/demo-release////</url>
+        <url>http://13.51.250.218:8081/repository/demo-release///</url>
     </repository>
     <snapshotRepository>
         <id>nexus</id>
       <name>demo-app</name>
-        <url>http://13.63.45.18:8081/repository/demo-app////</url>
+        <url>http://13.51.250.218:8081/repository/demo-app///</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
