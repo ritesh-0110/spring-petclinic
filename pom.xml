@@ -17,9 +17,9 @@
     <!-- Generic properties -->
     <repositories>
     <repository>
-     <id>nexus</id>
-      <name>demo-release</name>
-     <url>http://13.51.250.218:8081/repository/demo-release/</url>
+        <id>nexus</id>
+        <name>demo-release</name>
+        <url>http://13.51.250.218:8081/repository/demo-release/</url>
     </repository>
 </repositories>
     <java.version>17</java.version>
