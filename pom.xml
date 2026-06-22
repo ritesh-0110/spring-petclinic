@@ -12,13 +12,6 @@
   <name>petclinic</name>
   <properties>
     <!-- Generic properties -->
-    <repositories>
-    <repository>
-        <id>nexus</id>
-        <name>demo-release</name>
-        <url>http://13.51.250.218:8081/repository/demo-release/</url>
-    </repository>
-</repositories>
     <java.version>17</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -43,11 +36,6 @@
 
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
-    <dependency>
-  <groupId>org.springframework.samples</groupId>
-  <artifactId>spring-petclinic</artifactId>
-  <version>1.0-20260622.081622-1</version>
-  </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
